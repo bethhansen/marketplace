@@ -3,7 +3,7 @@ $(function(){
     var name = $("input#name").val();
     var street = $("input#street").val();
     var city = $("input#city").val();
-    var state = $("input#state").val();
+    var state = $("#states").val();
     var zip = $("input#zip").val();
 
     $(".name").text(name);
@@ -15,5 +15,6 @@ $(function(){
     $("#page").show();
     event.preventDefault();
   });
+
 
 });

@@ -12,6 +12,25 @@
       <div class="jumbotron">
       <h2>Purchase an Item to Help you make a Decision</h2>
       </div>
+      <div class="items">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="ball">
+              <img src="img/ball.png" alt="magic 8 ball">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="coin">
+              <img src="img/coin.png" alt="flipping a coin">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="straw">
+              <img src="img/straws.png" alt="Drawing Straws">
+            </div>
+          </div>
+        </div>
+      </div>
       <form id="market">
         <div class="form-group">
           <label for="name">Enter your full name here:</label>
@@ -27,7 +46,13 @@
         </div>
         <div class="form-group">
           <label for="state">Enter your state:</label>
-          <input id="state" class="form-control" type="text">
+          <!-- <input id="state" class="form-control" type="text"> -->
+          <select class="form-control" id="states">
+            <option>Oregon</option>
+            <option>Washington</option>
+            <option>California</option>
+            <option>Idaho</option>
+          </select>
         </div>
         <div class="form-group">
           <label for="zip">Enter your Zipcode:</label>

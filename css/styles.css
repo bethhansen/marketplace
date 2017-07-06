@@ -17,3 +17,14 @@ body {
   background: #5b9690;
   color: white;
 }
+img {
+  height: 300px;
+  width: 300px;
+}
+.col-md-4 {
+  margin-bottom: 20px;
+}
+#coins {
+  width: 300px;
+  text-align: center;
+}
